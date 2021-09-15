@@ -8,8 +8,8 @@ function startGame(){
 
     function randomGenerator(){
         for (var i = 0; i < level; i++) {
-            Left = Math.floor(Math.random() * 75) + 15;
-            Top = Math.floor(Math.random() * 80) + 5;
+            Left = Math.floor(Math.random() * 80) + 10;
+            Top = Math.floor(Math.random() * 75) + 15;
 
             insertionR(Left, Top, i);
             insertionL(Left, Top, i);
@@ -43,7 +43,7 @@ function insertionExtra(iterationExtra){
     return $("#" + iterationExtra).css({
             "position": "absolute",
                 "top": Math.floor(Math.random() * 75) + 15 + "%",
-                "left": Math.floor(Math.random() * 80) + 5 + "%"
+                "left": Math.floor(Math.random() * 80) + 10 + "%"
         });
 };
 
