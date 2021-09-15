@@ -19,7 +19,7 @@ function startGame(){
 };
 
 function insertionL(left, top, iteratorL){
-    $("#L").append("<img src = 'smiley.png' width='50' height='50' id=" + iteratorL + ">");
+    $("#L").append("<img src = 'smiley4.png' width='50' height='50' id=" + iteratorL + ">");
     return $("#" + iteratorL).css({
             "position": "absolute",
                 "top": top + "%",
@@ -29,7 +29,7 @@ function insertionL(left, top, iteratorL){
 };
 
 function insertionR(left, top, iteratorR){
-    $("#R").append("<img src = 'smiley.png' width='50' height='50' id=" + iteratorR + ">");
+    $("#R").append("<img src = 'smiley4.png' width='50' height='50' id=" + iteratorR + ">");
     return $("#" + iteratorR).css({
             "position": "absolute",
                 "top": top + "%",
@@ -39,7 +39,7 @@ function insertionR(left, top, iteratorR){
 
 
 function insertionExtra(iterationExtra){
-    $("#R").append("<img src = 'smiley.png' width='50' height='50' onclick='next()' id=" + iterationExtra + ">");
+    $("#R").append("<img src = 'smiley4.png' width='50' height='50' onclick='next()' id=" + iterationExtra + ">");
     return $("#" + iterationExtra).css({
             "position": "absolute",
                 "top": Math.floor(Math.random() * 80) + 10 + "%",
