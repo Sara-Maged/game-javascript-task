@@ -25,29 +25,3 @@
     background-color: transparent;
     border: none;
   }
-
-  .header {
-    padding: 8px;
-    text-align: center;
-    background: grey;
-    color: white;
-    font-size:5px;
-  }
-
-  /* #L, #R {
-    position:relative;
-} */
-
-
-  /* canvas{
-      border: black;
-      background-color: chartreuse;
-  } */
-  
-
-.circle-yellow {
-    background: yellow;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
